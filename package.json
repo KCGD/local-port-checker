@@ -1,5 +1,5 @@
 {
-  "name": "@kcgd/local-port-checker",
+  "name": "local-port-checker",
   "version": "1.0.2",
   "description": "checks if a port is being used on a local device",
   "main": "main.js",
