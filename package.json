@@ -25,5 +25,8 @@
   "homepage": "https://github.com/KCGD/local-port-checker#readme",
   "dependencies": {
     "http": "0.0.1-security"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
