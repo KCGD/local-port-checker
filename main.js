@@ -4,10 +4,8 @@ module.exports = function(port,callback){
     var checker = c.fork(__dirname+"/port_checker.js",[port])
     checker.on('message',function(message){
         if(message === "open"){
-            //console.log("[MAIN]: check passed, port " + port + " is not in use")
             callback(false);
         } else {
-            //console.log("[MAIN]: check passed, port " + port + " is in use");
             callback(true)
         }
     })
