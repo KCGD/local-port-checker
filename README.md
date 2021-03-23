@@ -7,7 +7,7 @@ This is a simple tool to check if a port is open on your computer
 use npm
 
 ```npm
-npm -i local-port-checker
+npm i local-port-checker
 ```
 
 ## Usage
