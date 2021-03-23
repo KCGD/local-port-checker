@@ -1,6 +1,6 @@
 {
   "name": "@kcgd/local-port-checker",
-  "version": "v1.0.0",
+  "version": "1.0.1",
   "description": "checks if a port is being used on a local device",
   "main": "main.js",
   "scripts": {
